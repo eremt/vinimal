@@ -11,15 +11,15 @@ if (has('gui_running') || has('unix') && system('tput sitm') == "\e[3m")
 endif
 
 let s:palette = {
+      \ 'bg-faded' : [233, '#121212'],
       \ 'bg-normal': [234, '#1c1c1c'],
-      \ 'bg-faded' : [235, '#262626'],
       \ 'bg-bright': [235, '#262626'],
-      \ 'fg-normal': [244, '#808080'],
       \ 'fg-faded' : [240, '#585858'],
+      \ 'fg-normal': [244, '#808080'],
       \ 'fg-bright': [248, '#a8a8a8'],
-      \ 'red'      : [196, '#ffff00'],
-      \ 'yellow'   : [220, '#ffd700'],
-      \ 'green'    : [118, '#87ff00'],
+      \ 'red'      : [160, '#d70000'],
+      \ 'yellow'   : [208, '#ff8700'],
+      \ 'green'    : [106, '#87af00'],
       \ 'blue'     : [117, '#87d7ff'],
       \ 'white'    : [255, '#ffffff'],
   \}
@@ -81,6 +81,13 @@ call s:Set('DiagnosticHint',  'green',     'bg-normal', 'NONE')
 call s:Set('Pmenu',           'fg-bright', 'bg-bright', 'NONE')
 call s:Set('PmenuSel',        'fg-bright', 'bg-bright', 'bold')
 call s:Set('Folded',          'fg-faded',  'bg-normal', 'inverse')
+call s:Set('SignColumn',      'fg-bright', 'bg-normal', 'NONE')
+call s:Set('VertSplit',       'fg-bright', 'bg-faded',  'NONE')
+call s:Set('StatusLine',      'fg-bright', 'bg-faded',  'NONE')
+call s:Set('StatusLineNC',    'fg-normal', 'bg-faded',  'NONE')
+call s:Set('TabLine',         'fg-faded',  'bg-normal', 'NONE')
+call s:Set('TabLineFill',     'fg-faded',  'bg-normal', 'NONE')
+call s:Set('TabLineSel',      'fg-bright', 'bg-normal', 'NONE')
 
 call s:Set('diffAdded',       'green',     'bg-normal', 'NONE')
 call s:Set('diffRemoved',     'red',       'bg-normal', 'NONE')
@@ -92,3 +99,6 @@ call s:Set('diffIndexLine',   'fg-faded',  'bg-normal', 'NONE')
 call s:Set('diffFile',        'fg-faded',  'bg-normal', 'NONE')
 
 call s:Set('EndOfBuffer',     'fg-faded',  'bg-normal', 'bold')
+
+call s:Clone('StatusLineTerm', 'StatusLine')
+call s:Clone('StatusLineTermNC', 'StatusLineNC')
