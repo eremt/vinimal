@@ -69,7 +69,7 @@ call s:Set('Statement',       'fg-normal', 'bg-normal', 'NONE')
 call s:Set('Type',            'fg-normal', 'bg-normal', 'NONE')
 
 call s:Set('Search',          'white',     'bg-normal', 'NONE')
-call s:Set('IncSearch',       'bg-normal', 'fg-faded',  'NONE')
+call s:Set('IncSearch',       'white',     'fg-normal', 'NONE')
 call s:Set('Comment',         'fg-faded',  'bg-normal', 'NONE')
 call s:Set('Todo',            'blue',      'bg-normal', 'NONE')
 
