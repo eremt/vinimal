@@ -72,6 +72,7 @@ call s:Set('Search',          'white',     'bg-normal', 'NONE')
 call s:Set('IncSearch',       'white',     'fg-normal', 'NONE')
 call s:Set('Comment',         'fg-faded',  'bg-normal', 'NONE')
 call s:Set('Todo',            'blue',      'bg-normal', 'NONE')
+call s:Set('Visual',          'fg-bright', 'bg-bright', 'NONE')
 
 call s:Set('DiagnosticError', 'red',       'bg-normal', 'NONE')
 call s:Set('DiagnosticWarn',  'yellow',    'bg-normal', 'NONE')
@@ -94,7 +95,8 @@ call s:Set('DiffDelete',      'fg-faded',  'bg-normal', 'NONE')
 call s:Set('DiffChange',      'fg-faded',  'bg-normal', 'NONE')
 call s:Set('DiffText',        'green',     'bg-normal', 'NONE')
 
-call s:Set('EndOfBuffer',     'fg-faded',  'bg-normal', 'bold')
+call s:Set('LineNr',          'fg-faded',  'bg-normal', 'NONE')
+call s:Set('EndOfBuffer',     'fg-faded',  'bg-normal', 'NONE')
 
 call s:Clone('StatusLineTerm', 'StatusLine')
 call s:Clone('StatusLineTermNC', 'StatusLineNC')
