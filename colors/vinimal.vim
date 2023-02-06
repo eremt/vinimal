@@ -19,7 +19,7 @@ let s:palette = {
       \ 'fg-bright': [248, '#a8a8a8'],
       \ 'red'      : [160, '#d70000'],
       \ 'yellow'   : [208, '#ff8700'],
-      \ 'green'    : [106, '#87af00'],
+      \ 'green'    : [149, '#afd75f'],
       \ 'blue'     : [111, '#87d7ff'],
       \ 'white'    : [255, '#ffffff'],
   \}
@@ -83,7 +83,7 @@ call s:Set('Pmenu',           'fg-bright', 'bg-bright', 'NONE')
 call s:Set('PmenuSel',        'fg-bright', 'bg-bright', 'bold')
 call s:Set('Folded',          'fg-faded',  'bg-normal', 'NONE')
 call s:Set('SignColumn',      'fg-bright', 'bg-normal', 'NONE')
-call s:Set('VertSplit',       'fg-bright', 'bg-faded',  'NONE')
+call s:Set('WinSeparator',    'bg-faded',  'bg-faded',  'NONE')
 call s:Set('StatusLine',      'fg-bright', 'bg-faded',  'NONE')
 call s:Set('StatusLineNC',    'fg-normal', 'bg-faded',  'NONE')
 call s:Set('TabLine',         'fg-faded',  'bg-normal', 'NONE')
