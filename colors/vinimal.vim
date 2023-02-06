@@ -20,7 +20,7 @@ let s:palette = {
       \ 'red'      : [160, '#d70000'],
       \ 'yellow'   : [208, '#ff8700'],
       \ 'green'    : [106, '#87af00'],
-      \ 'blue'     : [117, '#87d7ff'],
+      \ 'blue'     : [111, '#87d7ff'],
       \ 'white'    : [255, '#ffffff'],
   \}
 
