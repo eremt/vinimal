@@ -17,9 +17,9 @@ let s:palette = {
       \ 'fg-faded' : [240, '#585858'],
       \ 'fg-normal': [245, '#8a8a8a'],
       \ 'fg-bright': [248, '#a8a8a8'],
-      \ 'red'      : [160, '#d70000'],
+      \ 'red'      : [9,   '#ff0000'],
       \ 'yellow'   : [208, '#ff8700'],
-      \ 'green'    : [149, '#afd75f'],
+      \ 'green'    : [2,   '#008000'],
       \ 'blue'     : [111, '#87d7ff'],
       \ 'white'    : [255, '#ffffff'],
   \}
