@@ -14,7 +14,7 @@ let s:palette = {
       \ 'bg-faded' : [233, '#121212'],
       \ 'bg-normal': [234, '#1c1c1c'],
       \ 'bg-bright': [235, '#262626'],
-      \ 'fg-faded' : [240, '#585858'],
+      \ 'fg-faded' : [241, '#626262'],
       \ 'fg-normal': [245, '#8a8a8a'],
       \ 'fg-bright': [248, '#a8a8a8'],
       \ 'red'      : [9,   '#ff0000'],
@@ -72,7 +72,7 @@ call s:Set('Search',          'white',     'bg-normal', 'NONE')
 call s:Set('IncSearch',       'white',     'fg-normal', 'NONE')
 call s:Set('Comment',         'fg-faded',  'bg-normal', 'NONE')
 call s:Set('Todo',            'blue',      'bg-normal', 'NONE')
-call s:Set('Visual',          'fg-bright', 'bg-bright', 'NONE')
+call s:Set('Visual',          'fg-normal', 'bg-faded',  'NONE')
 
 call s:Set('DiagnosticError', 'red',       'bg-normal', 'NONE')
 call s:Set('DiagnosticWarn',  'yellow',    'bg-normal', 'NONE')
