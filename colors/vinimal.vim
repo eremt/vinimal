@@ -90,6 +90,9 @@ call s:Set('TabLine',         'fg-faded',  'bg-normal', 'NONE')
 call s:Set('TabLineFill',     'fg-faded',  'bg-normal', 'NONE')
 call s:Set('TabLineSel',      'fg-bright', 'bg-normal', 'NONE')
 
+call s:Set('debugPC',         'fg-bright', 'bg-bright', 'NONE')
+call s:Set('debugBreakpoint', 'fg-bright', 'red',       'NONE')
+
 call s:Set('DiffAdd',         'green',     'bg-normal', 'NONE')
 call s:Set('DiffDelete',      'fg-faded',  'bg-normal', 'NONE')
 call s:Set('DiffChange',      'fg-faded',  'bg-normal', 'NONE')
